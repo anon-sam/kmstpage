@@ -15,11 +15,38 @@
 	font:  15pt "Yu Gothic UI Semibold";
 }
 
+.go{
+	position:static;
+	width:35px;
+	height:35px;
+	margin:0px;
+	vertical-align:center;
+	color:rgb(0,0,0);
+	border-style:solid;
+	background-color:rgb(255,255,255);
+	outline-style:none;
+}
+
+.relF{
+	position:static;
+	width:65px;
+	height:35px;
+	vertical-align:center;
+	margin-left:50px;
+	color:rgb(255,255,255);
+	background-color:rgb(255,0,0);
+	outline-style:none;
+	border-radius:65px;
+}
+
 input{
 	position:static;
-	height:20px;
+	height:30px;
+	vertical-align:bottom;
+	border-style:none;
+	outline-style:none;
 	width:60%;
-	font: 15pt "Yu Gothic UI";
+	font: 12pt "Yu Gothic UI";
 }
 
 label{
