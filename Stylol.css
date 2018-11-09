@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 .home{
+	overflow:auto;
 	position:static;
 	width:100px;
 	margin-right:20px;
@@ -17,6 +18,7 @@
 }
 
 .go{
+	overflow:auto;
 	position:static;
 	width:35px;
 	height:35px;
@@ -30,6 +32,7 @@
 
 .relF{
 	position:static;
+	overflow:hidden;
 	width:65px;
 	height:35px;
 	vertical-align:center;
@@ -42,6 +45,7 @@
 
 input{
 	position:static;
+	overflow:auto;
 	height:30px;
 	vertical-align:bottom;
 	border-style:none;
@@ -51,7 +55,8 @@ input{
 }
 
 label{
-	position:staitc;
+	position:relative;
+	overflow:auto;
 	color:rgb(255,255,255);
 	border-style:none;
 	outset-style:none;
@@ -62,6 +67,7 @@ label{
 
 body{
 	margin:0px;
+	overflow:auto;
 }
 
 #gohere{
