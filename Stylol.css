@@ -43,6 +43,11 @@
 	border-radius:65px;
 }
 
+p{
+	font: 20pt "Sans Sherif";
+	color:rgb(255,240,240);
+}
+
 input{
 	position:static;
 	overflow:auto;
