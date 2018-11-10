@@ -120,43 +120,7 @@
   </proxy>
   <endpoints>
   
-	   <endpoint>
-      <name>NASA</name>
-      <abbreviation>nsv</abbreviation>
-      <description>Linked Data version of SpaceVoyage.</description>
-      <endpointURI>https://anon-sam.github.io/kmstpage/</endpointURI>
-      <dontAppendSPARQL>false</dontAppendSPARQL>
-      <defaultGraphURI>https://anon-sam.github.io/kmstpage/NasaSpaceVoyage.ttl</defaultGraphURI>
-      <isVirtuoso>false</isVirtuoso>
-      <useProxy>true</useProxy>
-      <method>POST</method>
-      <autocompleteURIs>
-        <autocompleteURI>http://www.w3.org/2000/01/rdf-schema#label</autocompleteURI>
-      </autocompleteURIs>
-      <autocompleteLanguage>en</autocompleteLanguage>
-      <ignoredProperties>
-        <ignoredProperty>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</ignoredProperty>
-        <ignoredProperty>http://www.w3.org/2004/02/skos/core#subject</ignoredProperty>
-        <ignoredProperty>http://dbpedia.org/property/wikiPageUsesTemplate</ignoredProperty>
-        <ignoredProperty>http://dbpedia.org/property/wordnet_type</ignoredProperty>
-        <ignoredProperty>http://dbpedia.org/property/wikilink</ignoredProperty>
-		<ignoredProperty>http://www.w3.org/2002/07/owl#sameAs</ignoredProperty>
-		<ignoredProperty>http://purl.org/dc/terms/subject</ignoredProperty>
-      </ignoredProperties>
-      <abstractURIs>
-        <abstractURI>http://example.org/data/NasaSpaceVoyage.csv#</abstractURI>
-      </abstractURIs>
-      <imageURIs>
-        <imageURI>http://dbpedia.org/ontology/thumbnail</imageURI>
-        <imageURI>http://xmlns.com/foaf/0.1/depiction</imageURI>
-      </imageURIs>
-      <linkURIs>
-        <linkURI>http://purl.org/ontology/mo/wikipedia</linkURI>
-        <linkURI>http://xmlns.com/foaf/0.1/homepage</linkURI>
-        <linkURI>http://xmlns.com/foaf/0.1/page</linkURI>
-      </linkURIs>
-      <maxRelationLength>2</maxRelationLength>
-    </endpoint>
+	  
 	  
     <endpoint>
       <name>DBpedia</name>
@@ -196,6 +160,45 @@
       <maxRelationLength>2</maxRelationLength>
     </endpoint>
 
+	   <endpoint>
+      <name>NASA</name>
+      <abbreviation>nsv</abbreviation>
+      <description>Linked Data version of SpaceVoyage.</description>
+      <endpointURI>https://anon-sam.github.io/kmstpage</endpointURI>
+      <dontAppendSPARQL>false</dontAppendSPARQL>
+      <defaultGraphURI>https://anon-sam.github.io/kmstpage/NasaSpaceVoyage.ttl</defaultGraphURI>
+      <isVirtuoso>false</isVirtuoso>
+      <useProxy>true</useProxy>
+      <method>POST</method>
+      <autocompleteURIs>
+	      <autocompleteURI>http://example.org/data/NASASpaceVoyage.csv#COSPAR_ID</autocompleteURI>
+        <autocompleteURI>http://www.w3.org/2000/01/rdf-schema#label</autocompleteURI>
+      </autocompleteURIs>
+      <autocompleteLanguage>en</autocompleteLanguage>
+      <ignoredProperties>
+        <ignoredProperty>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</ignoredProperty>
+        <ignoredProperty>http://www.w3.org/2004/02/skos/core#subject</ignoredProperty>
+        <ignoredProperty>http://dbpedia.org/property/wikiPageUsesTemplate</ignoredProperty>
+        <ignoredProperty>http://dbpedia.org/property/wordnet_type</ignoredProperty>
+        <ignoredProperty>http://dbpedia.org/property/wikilink</ignoredProperty>
+		<ignoredProperty>http://www.w3.org/2002/07/owl#sameAs</ignoredProperty>
+		<ignoredProperty>http://purl.org/dc/terms/subject</ignoredProperty>
+      </ignoredProperties>
+      <abstractURIs>
+        <abstractURI>http://example.org/data/NASASpaceVoyage.csv#</abstractURI>
+      </abstractURIs>
+      <imageURIs>
+        <imageURI>http://dbpedia.org/ontology/thumbnail</imageURI>
+        <imageURI>http://xmlns.com/foaf/0.1/depiction</imageURI>
+      </imageURIs>
+      <linkURIs>
+        <linkURI>http://purl.org/ontology/mo/wikipedia</linkURI>
+        <linkURI>http://xmlns.com/foaf/0.1/homepage</linkURI>
+        <linkURI>http://xmlns.com/foaf/0.1/page</linkURI>
+      </linkURIs>
+      <maxRelationLength>2</maxRelationLength>
+    </endpoint>
+	  
     <endpoint>
       <name>Linked Movie Data Base</name>
       <abbreviation>lmdb</abbreviation>
